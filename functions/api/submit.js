@@ -8,6 +8,6 @@ export async function onRequestPost(context) {
       },
     })
   } catch (err) {
-    return new Response('Erro rparsing JSON', { status: 400 })
+    return new Response('Error parsing JSON', { status: 400 })
   }
 }
